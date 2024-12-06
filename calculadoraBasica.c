@@ -41,7 +41,7 @@ int main() {
     } while (opcion != 4);
     return 0;
 }
-
+//Bustos F Nicolas//
 int sumar(int a, int b) {
     printf("Ingrese primer numero");
     scanf("%d",&a);
