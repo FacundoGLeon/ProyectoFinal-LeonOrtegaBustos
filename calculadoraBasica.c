@@ -28,8 +28,12 @@ int main() {
                 break;
 
             case 3:
+                printf("Ingrese primer entero:\n");
+                scanf("%d",&num1);
+                printf("Ingrese segundo entero:\n");
+                scanf("%d",&num2);
                 resultado = multiplicar(num1, num2);
-                printf("Resultado de la multiplicacion: \n\n");
+                printf("Resultado de la multiplicacion: %d\n\n",resultado);
                 break;
             case 4:
                 printf("Saliendo de la calculadora...\n\n");
@@ -49,7 +53,8 @@ int sumar(int a, int b) {
 int restar(int a, int b) {
     return 0;
 }
-
+// Facundo leon
 int multiplicar(int a, int b) {
-    return 0;
+
+    return a*b;
 }
