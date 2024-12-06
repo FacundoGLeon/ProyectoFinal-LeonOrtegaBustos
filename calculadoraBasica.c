@@ -23,8 +23,9 @@ int main() {
                 break;
 
             case 2:
+
                 resultado = restar(0, 0);
-                printf("Resultado de la resta: \n\n");
+                printf("Resultado de la resta: %d\n\n",resultado);
                 break;
 
             case 3:
@@ -45,9 +46,14 @@ int main() {
 int sumar(int a, int b) {
     return 0;
 }
-
+// Manuel Ortega
 int restar(int a, int b) {
-    return 0;
+    printf("ingrese el valor de primer numero\n");
+    scanf("%i",&a);
+    printf("ingrese el valor del segundo numero\n");
+    scanf("%d",&b);
+
+    return a-b;
 }
 
 int multiplicar(int a, int b) {
